@@ -16,7 +16,12 @@ const fadeIn = {
 };
 
 export const SocialLinks = ({ socials }: { socials: SocialLink[] }) => (
-  <motion.div variants={fadeIn} initial="initial" animate="animate">
+  <motion.div
+    variants={fadeIn}
+    initial="initial"
+    animate="animate"
+    className="mt-5"
+  >
     <p className="text-zinc-400 text-lg font-medium">
       Let&apos;s build the future of Web3 together.
     </p>

@@ -17,7 +17,7 @@ export const HeadingSection = () => (
     animate="animate"
     aria-label="Daniel Mark - Web3 Engineer"
   >
-    <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
+    <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-white leading-tight">
       Hey there! My name is Daniel Mark.
     </h1>
   </motion.section>

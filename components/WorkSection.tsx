@@ -13,7 +13,12 @@ const fadeIn = {
 };
 
 export const WorkSection = () => (
-  <motion.div variants={fadeIn} initial="initial" animate="animate">
+  <motion.div
+    variants={fadeIn}
+    initial="initial"
+    animate="animate"
+    className="mt-5"
+  >
     <p className="text-zinc-400 text-lg font-medium">
       I&apos;ve had the privilege of working with some of the best companies in
       the industry.

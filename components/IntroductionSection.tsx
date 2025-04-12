@@ -15,7 +15,7 @@ const fadeIn = {
 
 export const IntroductionSection = () => (
   <motion.div variants={fadeIn} initial="initial" animate="animate">
-    <p className="text-zinc-500 text-lg md:text-xl font-normal leading-relaxed">
+    <p className="text-zinc-500 text-base md:text-lg font-normal leading-relaxed">
       I&apos;m a front-end software engineer specializing in Web3, crafting
       seamless user experiences for NFT platforms, DeFi applications, and
       blockchain integrations. With 7+ years in full-stack development,
